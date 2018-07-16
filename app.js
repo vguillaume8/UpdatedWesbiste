@@ -3,7 +3,7 @@ path = require('path');
 server = express();
 
 
-var port = 8080;
+var port = 80;
 
 
 server.use(express.static(path.join(__dirname, '/')));
