@@ -4,7 +4,7 @@
 }
 /* start h_logo */
 .logo{
-	float:left;
+	float:center;
 	text-align: center;
 }
 .logo h1 a{
@@ -24,7 +24,7 @@
 	position:relative;
 	float:left;
 	list-style:none;
-	
+
 }
 .flexy-menu li{
 	display:inline;
@@ -229,7 +229,7 @@
 	.flexy-menu ul>li .arrow{
 		display:none;
 	}
-	
+
 }
 @media only screen and (max-width: 640px) {
 
@@ -270,9 +270,3 @@
 	}
 
 }
-
-
-
-
-
-

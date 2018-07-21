@@ -280,7 +280,7 @@ margin-bottom: 1.34em;
 	padding: 6em 0em 2em 0em;
 }
 .left-form,.right-form{
-	float:left;
+	float:center;
 	margin:22px 28px;
 	width:60%;
 }
