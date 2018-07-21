@@ -1,5 +1,5 @@
 /*
-* 	Owl Carousel Owl Demo Theme 
+* 	Owl Carousel Owl Demo Theme
 *	v1.24
 */
     #owl-demo .item{
@@ -70,8 +70,8 @@
 }
 .group_1_img .ui {
 	padding: 1.5em 1.7em;
-	color:#fff;
-	background: #FF605F;
+	color:#28ace4;
+	background: #d48816;
 	float: left;
 	font-size: 2.8em;
 	font-weight: 900;
@@ -137,7 +137,14 @@
 .group_2 {
 	padding: 5em 0em 1em 0em;
 }
+.group_4 {
+	padding: 5em 0em 1em 0em;
+}
 .group_2_img1
+{
+	float:left;
+}
+.group_4_img1
 {
 	float:left;
 }
@@ -145,7 +152,15 @@
 {
 	width:100%;
 }
+.group_4_img1 img
+{
+	width:100%;
+}
 .group_2_items
+{
+	padding-top: 5em;
+}
+.group_4_items
 {
 	padding-top: 5em;
 }
@@ -154,6 +169,12 @@
 	padding: 0.7em 0em;
 }
 .group_2_text2
+{
+	padding: 3em 0em;
+	float: right;
+	width:25%;
+}
+.group_4_text2
 {
 	padding: 3em 0em;
 	float: right;
@@ -169,7 +190,23 @@
 	text-transform: uppercase;
 	font-family: 'Open Sans', sans-serif;
 }
+.group_4_text2 h3
+{
+	color: #CFCFCF;
+	font-size: 0.9em;
+	font-weight: 600;
+	padding-bottom: 10px;
+	text-shadow: 0px 0px 1px #CFCFCF;
+	text-transform: uppercase;
+	font-family: 'Open Sans', sans-serif;
+}
 .group_2_text2 h4
+{
+	color:#333333;
+	font-size: 0.95em;
+	padding-bottom: 10px;
+}
+.group_4_text2 h4
 {
 	color:#333333;
 	font-size: 0.95em;
@@ -202,7 +239,7 @@
 .brows_button_3 a,.brows_button_4 a{
 	border:2px solid #55C1E5;
 	font-size: 0.9em;
-	padding: 0.7em 1.5em;	
+	padding: 0.7em 1.5em;
 	color: #5EC7E5;
 	border-radius: 5px;
 	-webkit-border-radius: 5px;
@@ -236,7 +273,7 @@
 .group_1_img img
 {
 	border-radius:50px;
-	
+
 }
 /* Styling Next and Prev buttons */
 
@@ -314,7 +351,7 @@
 	min-height: 150px;
 	background: url(AjaxLoader.gif) no-repeat center center
 }
-/* 
+/*
  * 	Core Owl Carousel CSS File
  *	v1.24
  */
@@ -370,7 +407,7 @@
 }
 /*******/
 /* mouse grab icon */
-.grabbing { 
+.grabbing {
     cursor:url(grabbing.png) 8 8, move;
 }
 
@@ -573,10 +610,19 @@
 	.group_2_items {
 	padding-top: 1em;
 	}
+  .group_4_items {
+	padding-top: 1em;
+	}
 	.group_2_img1 {
 	width: 62%;
 	}
+  .group_4_img1 {
+	width: 62%;
+	}
 	.group_2 {
+	padding: 3em 0em 1em 0em;
+	}
+  .group_4 {
 	padding: 3em 0em 1em 0em;
 	}
 }
@@ -616,6 +662,10 @@
 	{
 		padding: 0em;
 	}
+  .group_4_text2
+	{
+		padding: 0em;
+	}
 	.brows_button_3 {
 	margin: 4em 0em;
 	}
@@ -634,7 +684,7 @@
 	}
 	.group_3_img {
 	float: none;
-	width: 40%;
+	width: 70%;
 	margin: 0 auto;
 	text-align: center;
 	}
@@ -658,6 +708,10 @@
 	{
 		width: 30%;
 	}
+  .group_4_text2
+  {
+    width: 30%;
+  }
 	.button_2
 	{
 		margin: 1em 0em;
@@ -669,7 +723,7 @@
 	.brows_button_3 {
 	margin: 4em 0em 1em 0em;
 	}
-	
+
 }
 @media only screen and (max-width:640px) {
 	.owl-carousel {
@@ -689,6 +743,11 @@
 	margin: 0 auto;
 	float: none;
 	}
+  .group_4_img1 {
+	width: 70%;
+	margin: 0 auto;
+	float: none;
+	}
 	.group_2_text2 {
 	width: 100%;
 	float: none;
@@ -696,6 +755,13 @@
 	margin: 0%;
 	margin-top: 20px;
 	}
+  .group_4_text2 {
+  width: 100%;
+  float: none;
+  text-align: center;
+  margin: 0%;
+  margin-top: 20px;
+  }
 	.group_1_text h3 {
 	font-size: 1em;
 	}
@@ -715,8 +781,11 @@
 	.text-light {
 	padding: 1em 0em;
 	}
-	
+
 	.group_2 {
+	padding: 1em 0em 1em 0em;
+	}
+  .group_4 {
 	padding: 1em 0em 1em 0em;
 	}
 }
@@ -749,7 +818,7 @@
 	height: 50px;
 	}
 }
-@media only screen and (max-width:320px) 
+@media only screen and (max-width:320px)
 {
 	.owl-prev
 	{
@@ -766,6 +835,11 @@
 	font-size: 1.15em;
 	}
 	.group_2_img1 {
+	width: 100%;
+	margin: 0 auto;
+	float: none;
+	}
+  .group_4_img1 {
 	width: 100%;
 	margin: 0 auto;
 	float: none;
