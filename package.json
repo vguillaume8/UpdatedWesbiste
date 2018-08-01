@@ -1,9 +1,9 @@
 {
 	"Vinston": "MyWebsite",
-	"version": "0.0.0",
+  "version": "1.0.0",
 	"description": "Vince's Website",
 	"main": "server.js",
-	"author": "Jabari",
+  "author": "Vinston Guilaume",
 
 	"dependencies": {
 		"express": "~4.7.2"
