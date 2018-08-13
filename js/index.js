@@ -11,8 +11,7 @@ $(document).ready(function() {
   $().UItoTop({ easingType: 'easeOutQuart' });
 
 });
-</script>
-<script type="text/javascript">
+
 jQuery(document).ready(function($) {
 $(".scroll").click(function(event){
   event.preventDefault();
