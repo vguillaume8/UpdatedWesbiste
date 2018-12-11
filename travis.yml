@@ -1,0 +1,19 @@
+sudo: required
+
+language: node_js
+
+node_js:
+  - "9"
+
+before_install:
+  - chmod +x ./upload.sh
+
+services:
+  - docker
+
+script:
+  - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
+  
+
+after_success:
+  - ./upload.sh
