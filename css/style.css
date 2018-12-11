@@ -42,7 +42,7 @@ body {
 {
 	background: url(../img/thowardMues.jpg) no-repeat;
 	background-size: 100%;
-	background-position-y: 100%
+	background-blend-mode: soft-light;
 	
 }
 
