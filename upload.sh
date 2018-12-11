@@ -58,7 +58,7 @@ curl --data "$(generate_post_data)" "https://api.github.com/repos/$repo_full_nam
 
 # Build docker images with the same version number
 echo "Building docker image"
-docker build -t vguillaume/updatedwebsite:$version 
+docker build -t vguillaume/updatedwebsite:$version .
 
 
 # Push them to docker hub
