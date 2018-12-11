@@ -42,7 +42,8 @@ body {
 {
 	background: url(../img/thowardMues.jpg) no-repeat;
 	background-size: 100%;
-	background-size:cover;
+	background-position-y: 100%
+	
 }
 
 /*------- Skills rings-------*/
