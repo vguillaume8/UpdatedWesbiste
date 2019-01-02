@@ -1,7 +1,7 @@
 {
 	"Vinston": "MyWebsite",
-  "version": "1.0.0",
-	"description": "Vince's Website",
+  "version": "2.0.0",
+	"description": "Vinston's Person Website",
 	"main": "server.js",
   "author": "Vinston Guilaume",
 
