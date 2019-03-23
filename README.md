@@ -1,5 +1,5 @@
 # MyWebsite
-[![Build Status](https://travis-ci.com/vguillaume8/UpdatedWesbiste.svg?branch=master)
+![Build Status](https://travis-ci.com/vguillaume8/UpdatedWesbiste.svg?branch=master)
 
 My personal website
 vinstonguillaume.com
